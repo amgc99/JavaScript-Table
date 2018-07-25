@@ -1,0 +1,44 @@
+/* Place all of your CSS Code in this file */
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+
+body{
+    color: blueviolet;
+}
+nav{
+     color: lightblue;
+}
+footer{
+    color: grey;
+}    
+h1.app-title{
+    text-align: left;
+    color: darkmagenta;
+    font-family: 'Gaegu';
+}
+div.main-table-container{
+    max-height: 200px;
+    border-width: 1px;
+    border-collapse: collapse;
+    overflow: scroll;
+
+}
+table.main-table-top th{
+    border-color: aqua;
+    border: dashed;
+    width: 300px; 
+    padding: 8px;
+    background-color: lightgrey;
+    font-family: 'Gaegu';
+    font-size: 20px;
+   margin: 0 auto;
+}
+table.main-table td{
+    background-color: bisque;
+    padding:8px;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+span{
+    color:rgb(143, 5, 74);
+    font-family: 'Gaegu';
+}
